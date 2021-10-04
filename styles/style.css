@@ -1,10 +1,83 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
-*/
-
+light blue: #1c538*/
+/* *{
+  border: 1px solid red;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: linear-gradient(to bottom,  #06365f 50%, white 50%);
+  background-attachment:fixed;
 }
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 10%;
+  margin-right: 9%;
+}
+.tel {
+  position: absolute;
+  margin-left:25%;
+  margin-top: 1%;
+  width: 18%;
+  height: 60%;
+}
+.text{
+  width: 50%;
+  height: 50%;
+  padding: 4%;
+  font-size: 25px;
+  background-color: white;
+}
+.top {
+  margin-top: 3rem;
+  width: 55%;
+  color: white;
+}
+.logo{
+  width: 56%;
+}
+.home {
+  width: 6%;
+  height: 8%;
+  margin-left: 8%;
+  border: 1px solid white;
+}
+h2 {
+  margin-right: 31%;
+  margin-top:-2%;
+  font-size: 48px;
+  font-weight: bold;
+  color: #06365f;
+  background-color: white;
+  }
+  .info {
+    padding: 1%;
+    font-size: 20px;
+    background-color: white;
+  }
+  footer {
+    align-items: center;
+    text-transform: uppercase;
+    color: #1c5380;
+    margin: 10%;
+    margin-right: 23%;
+    color: #06365f;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+  }
+  .grey{
+    color: grey;
+  }
+  .button {
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 2%;
+  }
+  .android {
+    margin-left: 4%;
+  }
